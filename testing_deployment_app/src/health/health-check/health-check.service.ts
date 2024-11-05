@@ -5,6 +5,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class HealthCheckService {
     checkHealth(): { status: string } {
-        return { status: 'OK' }; // Return a simple health status
+        return { status: 'OK fine' }; // Return a simple health status
     }
 }
